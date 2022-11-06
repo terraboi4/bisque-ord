@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: #222636;
+    color: #ffffff;
+  }
+  
+  .page-top {
+    background-color: #2f3447;
+    padding: 4px;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .page-logo {
+    display: inline;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .page-title {
+    display: inline;
+  }
+  
+  .content {
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .user-input-box {
+    width: 70%;
+    background-color: #0d0f17;
+    border-style: none;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+  }
+  
+  .message {
+    margin: 6px 0px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .message:hover {
+    background-color: #2f3447;
+  }
+  
+  .message-name {
+    display: block;
+  }
+  
+  .message-send {
+    background-color: #2f3447;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px;
+    float: right;
+  }
+  
+  .message-send:hover {
+    background-color: #0d0f17;
+  }
+  
+  .messages {
+    border: 3px #ffffff;
+    border-style: none solid none solid;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    height: 70vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .messages::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .channels {
+    background-color: #0d0f17;
+    padding: 5px;
+    margin: 15px 5px 15px 5px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .channel-name {
+    display: inline;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 12px;
+  }
+  
