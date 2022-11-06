@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bisque-ord</title>
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page-top">
+      <img class="page-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Soups_lobster_bisque.jpg">
+      <h1 class="page-title">Bisque-ord</h1>
+      <i>mmmmmm....</i>
+    </div>
+    <div class="content">
+      <div class="channels" id="channels">
+        <div class="channel-name">
+          #channel1
+        </div>
+        <div class="channel-name">
+          #channel2
+        </div>
+      </div>
+      <div class="messages" id="messages">
+        <div class="message">
+          Bot: Hello!
+        </div>
+        <div class="message">
+          Bot: Welcome!
+        </div>
+      </div>
+      <div class="user-input" id="user-input">
+        <input type="text" class="user-input-box" id="message-input" name="message-input" placeholder="type here" autocomplete="off">
+        <button id="message-send" class="message-send" onclick="sendMessage();">send</button>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/static/messaging.js"></script>
+</html>
