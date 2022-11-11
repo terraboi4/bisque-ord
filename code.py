@@ -71,4 +71,4 @@ def api_send_message():
     return jsonify({'status': 'success'})
 
 if __name__ == '__main__':
-    app.run(port=80)
+    app.run()
